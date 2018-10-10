@@ -4,8 +4,7 @@ public class GenZ
 
     public static void main(String[] args)
     {
-        // TODO Auto-generated method stub
-
+        System.out.println("One day, I will learn Git!!!");
     }
 
 }
