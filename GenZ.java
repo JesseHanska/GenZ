@@ -17,10 +17,14 @@ public class GenZ
         list.add(new Integer(44));
         list.add(new Integer(44));
         //list.add(new String("a"));
+        Integer sum = 0;
         for (Number o: list)
         {
             System.out.println(o);
+            sum += (Integer)o;
         }
+        
+        System.out.println("Sum: " + sum);
     }
 
 }
